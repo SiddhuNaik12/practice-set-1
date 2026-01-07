@@ -1,0 +1,11 @@
+number=int(input())
+temp=number
+result=0
+while(number>0):
+    digit=number%10
+    result+=(digit**3)
+    number=number//10
+if(temp==result):
+    print("YES")
+else:
+    print("NO")
